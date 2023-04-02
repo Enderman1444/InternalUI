@@ -14,3 +14,5 @@ end)
 frame.Exit.MouseButton1Down:Connect(function()
 	frame:Destroy()
 end)
+
+internal.Parent = game.CoreGui
